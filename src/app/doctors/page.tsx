@@ -29,7 +29,7 @@ export default async function DoctorsPage({ searchParams }: { searchParams: Sear
 
   return (
     <main className="mx-auto min-h-screen max-w-7xl px-6 py-10 lg:px-10">
-      <Link href="/" className="text-sm text-[var(--muted)] hover:text-white">← Wellnest</Link>
+      <Link href="/" className="text-sm text-[var(--muted)] hover:text-white">← Pursuit Clinics</Link>
       <div className="mt-8"><p className="text-sm text-[var(--primary)]">Care, made simpler</p><h1 className="mt-2 text-4xl font-medium tracking-tight">Find your doctor</h1><p className="mt-3 max-w-2xl text-[var(--muted)]">Browse active providers and explore their profiles to find care that fits your needs.</p></div>
       <form action="/doctors" className="mt-8 grid gap-3 rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-4 sm:grid-cols-[1fr_15rem_auto]">
         <label className="flex flex-col gap-2 text-xs text-[var(--muted)]">Doctor or specialty<input name="q" defaultValue={search} placeholder="Search by name or specialty" className="rounded-xl border border-[var(--border)] bg-[#0b1216] px-3 py-2.5 text-sm text-white outline-none focus:border-[var(--primary)]" /></label>

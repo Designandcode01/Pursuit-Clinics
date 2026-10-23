@@ -12,7 +12,7 @@ async function SyncedAccount() {
       <h1 className="mt-2 text-3xl font-medium tracking-tight">Welcome, {user.name}</h1>
       <p className="mt-4 leading-7 text-[var(--muted)]">Your account is securely connected and ready. Your current access level is <span className="font-medium text-white">{user.role.toLowerCase()}</span>.</p>
       <p className="mt-3 text-sm leading-6 text-[var(--muted)]">New accounts start as patients. Doctor and administrator access can only be assigned through trusted administration.</p>
-      <Link href="/" className="mt-8 inline-flex rounded-xl bg-[var(--primary)] px-5 py-3 text-sm font-semibold text-[#071411] transition hover:bg-[var(--primary-strong)]">Continue to Wellnest</Link>
+      <Link href="/" className="mt-8 inline-flex rounded-xl bg-[var(--primary)] px-5 py-3 text-sm font-semibold text-[#071411] transition hover:bg-[var(--primary-strong)]">Continue to Pursuit Clinics</Link>
     </section>
   );
 }

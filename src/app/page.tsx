@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <main className="min-h-screen overflow-hidden">
       <header className="mx-auto flex max-w-7xl items-center justify-between px-6 py-6 lg:px-10">
-        <Link href="/" className="flex items-center gap-3 font-semibold tracking-tight"><span className="grid size-10 place-items-center rounded-xl bg-[var(--primary)] text-lg text-[#071411]">+</span><span>well<span className="text-[var(--primary)]">nest</span></span></Link>
+        <Link href="/" className="flex items-center gap-3 font-semibold tracking-tight"><span className="grid size-10 place-items-center rounded-xl bg-[var(--primary)] text-lg text-[#071411]">+</span><span>Pursuit<span className="text-[var(--primary)]">Clinics</span></span></Link>
         <nav className="hidden items-center gap-8 text-sm text-[var(--muted)] md:flex"><Link className="transition hover:text-white" href="/doctors">Find a doctor</Link><a className="transition hover:text-white" href="#how-it-works">How it works</a></nav>
         <AuthActions />
       </header>
